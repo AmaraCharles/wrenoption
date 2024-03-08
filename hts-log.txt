@@ -1,0 +1,312 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 29 Aug 2023 22:47:10 at https://wrenoptionstrade.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+Wrenoptionstrade
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://tradeedgecap.com/ -O1 "C:\My Web Sites\michael" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+
+
+Information, Warnings and Errors reported for this mirror:
+
+note:	the hts-log.txt file, and hts-cache folder, mWrenoptionstradeensitWrenoptionstradeion,Wrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+	such as username/password authentication for websiWrenoptionstrade in this projectWrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+	do not share these files/folders if you want theseWrenoptionstrade to remain privateWrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:48:40	Error: 	"Forbidden" (403) at link https://wrenoptionstrade.com/tradeedgecap.com (from httpWrenoptionstradeecap.com/)
+WrenoptionstradeWrenoptionstrade
+22:49:02	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/“https://www.smartsupp.com”Wrenoptionstrade://tradeedgecap.com/)
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/images/banner/MG_3474-1_.jpWrenoptionstradeps://tradeedgecap.com/?a=option-copy-trading)
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/images/services/knowledge.jWrenoptionstradetps://tradeedgecap.com/?a=option-copy-trading)
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/eur-usd.html (from https://wrenoptionstrade.com/?a=forex)
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/gbp-usd.html (from https://wrenoptionstrade.com/?a=forex)
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/usd-chf.html (from https://wrenoptionstrade.com/?a=forex)
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/usd-jpy.html (from https://wrenoptionstrade.com/?a=forex)
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/cad-chf.html (from https://wrenoptionstrade.com/?a=forex)
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/cad-jpy.html (from https://wrenoptionstrade.com/?a=forex)
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/usd-cad.html (from https://wrenoptionstrade.com/?a=forex)
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/chf-jpy.html (from https://wrenoptionstrade.com/?a=forex)
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/eur-cad.html (from https://wrenoptionstrade.com/?a=forex)
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/eur-chf.html (from https://wrenoptionstrade.com/?a=forex)
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/eur-gbp.html (from https://wrenoptionstrade.com/?a=forex)
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/eur-jpy.html (from https://wrenoptionstrade.com/?a=forex)
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/gbp-cad.html (from https://wrenoptionstrade.com/?a=forex)
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/gbp-chf.html (from https://wrenoptionstrade.com/?a=forex)
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/gbp-jpy.html (from https:/Wrenoptionstradep.com/?a=forex)
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/aud-cad.html (from https:/Wrenoptionstradep.com/?a=forex)
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/aud-chf.html (from https:Wrenoptionstradeap.com/?a=forex)
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/aud-jpy.html (from https:Wrenoptionstradeap.com/?a=forex)
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/aud-nzd.html (from https://tradeedgecap.com/?a=forex)Wrenoptionstrade
+Wrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://tradeedgecap.com/aud-usd.html (from https://trWrenoptionstradeom/?a=forex)
+Wrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://tradeedgecap.com/eur-aud.html (from https://trWrenoptionstradeom/?a=forex)
+Wrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://tradeedgecap.com/eur-nzd.html (from https://trWrenoptionstradeom/?a=forex)
+Wrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://tradeedgecap.com/gbp-aud.html (from https://trWrenoptionstradeom/?a=forex)
+Wrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://tradeedgecap.com/gbp-nzd.html (from https://trWrenoptionstradeom/?a=forex)
+Wrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://tradeedgecap.com/nzd-cad.html (from https://trWrenoptionstradeom/?a=forex)
+Wrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://tradeedgecap.com/nzd-chf.html (from https://trWrenoptionstradeom/?a=forex)
+Wrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://tradeedgecap.com/nzd-jpy.html (from https://trWrenoptionstradeom/?a=forex)
+Wrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://tradeedgecap.com/nzd-usd.html (from https://trWrenoptionstradeom/?a=forex)
+Wrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://tradeedgecap.com/eur-nok.html (from https://trWrenoptionstradeom/?a=forex)
+Wrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://tradeedgecap.com/eur-pln.html (from https://trWrenoptionstradeom/?a=forex)
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/eur-sek.html (from https://tradeedgecap.com/?a=forex)Wrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/eur-try.html (from https://tradeedgecap.com/?a=forex)Wrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/usd-dkk.html (from https://tradeedgecap.com/?a=forex)Wrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/usd-huf.html (from https://tradeedgecap.com/?a=forex)Wrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/usd-nok.html (from https://tradeedgecap.com/?a=foreWrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/usd-pln.html (from https://tradeedgecap.com/?a=forexWrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/usd-sek.html (from https://tradeedgecap.com/?a=foreWrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/usd-sgd.html (from https://tradeedgecap.com/?a=foWrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/usd-try.html (from https://tradeedgecap.com/?a=foWrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/usd-zar.html (from https://tradeedgecap.com/?a=forex)Wrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/aus200.html (from https://tradeedgecap.com/?a=indicWrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/fra40.html (from https://tradeedgecap.com/?a=indicWrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/jpn225.html (from https://tradeedgecap.com/?a=indices)Wrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/uk100.html (from https://tradeedgecap.com/?a=indicesWrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/ger30.html (from https://tradeedgecap.com/?a=indiceWrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/usa500.html (from https://tradeedgecap.com/?a=indices)Wrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/usa30.html (from https://tradeedgecap.com/?a=indicWrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:50:49	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/usa100.html (from https://tradeedgecap.com/?a=indWrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:51:28	Error: 	"Not Found" (404) at link https://wrenoptionstrade.com/dash/plugins/jvectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet Wrenoptionstrade//tradeedgecap.com/?a=faq)
+WrenoptionstradeWrenoptionstrade
+22:52:26	Warning: 	File not parsed, looks like binaWrenoptionstradetradeedgecap.com/assets/fonts/fa-brands-400.htmlWrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:52:26	Warning: 	Warning: store application/octetWrenoptionstradeout scan: C:/My Web Sites/michael/tradeedgecap.com/assWrenoptionstrade-brands-400.html
+WrenoptionstradeWrenoptionstrade
+22:52:28	Warning: 	File not parsed, looks like binaWrenoptionstradetradeedgecap.com/assets/fonts/fa-regular-400.htmlWrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:52:28	Warning: 	Warning: store application/octetWrenoptionstradeout scan: C:/My Web Sites/michael/tradeedgecap.com/assets/foWrenoptionstradear-400.html
+WrenoptionstradeWrenoptionstrade
+22:52:28	Warning: 	File not parsed, looks like binaWrenoptionstradetradeedgecap.com/assets/fonts/fa-solid-900.htmlWrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:52:28	Warning: 	Warning: store application/octetWrenoptionstradeout scan: C:/My Web Sites/michael/tradeedgecap.comWrenoptionstrades/fa-solid-900.html
+WrenoptionstradeWrenoptionstrade
+22:52:33	Warning: 	File not parsed, looks like binaWrenoptionstradetradeedgecap.com/assets/fonts/la-brands-400.htmlWrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:52:33	Warning: 	Warning: store application/octetWrenoptionstradeout scan: C:/My Web Sites/michael/tradeedgecap.comWrenoptionstrades/la-brands-400.html
+WrenoptionstradeWrenoptionstrade
+22:52:37	Warning: 	File not parsed, looks like binaWrenoptionstradetradeedgecap.com/assets/fonts/la-regular-400.htmlWrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:52:37	Warning: 	Warning: store application/octetWrenoptionstradeout scan: C:/My Web Sites/michael/tradeedgecap.com/assets/Wrenoptionstradeular-400.html
+WrenoptionstradeWrenoptionstrade
+22:52:38	Warning: 	File not parsed, looks like binaWrenoptionstradetradeedgecap.com/assets/fonts/la-solid-900.htmlWrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:52:38	Warning: 	Warning: store application/octetWrenoptionstradeout scan: C:/My Web Sites/michael/tradeedgecap.com/asWrenoptionstradea-solid-900.html
+WrenoptionstradeWrenoptionstrade
+22:52:44	Warning: 	File not parsed, looks like binaWrenoptionstradetradeedgecap.com/assets/fonts/materialdesignicons-webfonta5daa5daWrenoptionstrade95
+WrenoptionstradeWrenoptionstrade
+22:52:44	Warning: 	Warning: store application/octetWrenoptionstradeout scan: C:/My Web Sites/michael/tradeedgecaWrenoptionstrade/fonts/materialdesignicons-webfonta5daa5daa5da.html
+WrenoptionstradeWrenoptionstrade
+22:52:46	Warning: 	File not parsed, looks like binaWrenoptionstradetradeedgecap.com/assets/fonts/inter-light46a746a7.html?v=3.Wrenoptionstrade
+WrenoptionstradeWrenoptionstrade
+22:52:46	Warning: 	Warning: store application/octetWrenoptionstradeout scan: C:/My Web Sites/michael/tradeedgecap.comWrenoptionstrades/inter-light46a746a746a7.html
+
+22:52:46	Warning: 	File not parsed, looks like binary: https://tradeedgecap.com/assets/fonts/inter-regular46a746a7.html?v=3.13
+
+22:52:46	Warning: 	Warning: store application/octet-stream without scan: C:/My Web Sites/michael/tradeedgecap.com/assets/fonts/inter-regular46a746a746a7.html
+
+22:52:46	Warning: 	File not parsed, looks like binary: https://tradeedgecap.com/assets/fonts/inter-medium46a746a7.html?v=3.13
+
+22:52:46	Warning: 	Warning: store application/octet-stream without scan: C:/My Web Sites/michael/tradeedgecap.com/assets/fonts/inter-medium46a746a746a7.html
+
+22:52:46	Warning: 	File not parsed, looks like binary: https://tradeedgecap.com/assets/fonts/inter-bold46a746a7.html?v=3.13
+
+22:52:46	Warning: 	Warning: store application/octet-stream without scan: C:/My Web Sites/michael/tradeedgecap.com/assets/fonts/inter-bold46a746a746a7.html
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/css/images/ui-icons_444444_256x240.html (from https://tradeedgecap.com/dash/assets/css/jquery-ui.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/css/images/ui-icons_555555_256x240.html (from https://tradeedgecap.com/dash/assets/css/jquery-ui.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/css/images/ui-icons_ffffff_256x240.html (from https://tradeedgecap.com/dash/assets/css/jquery-ui.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/css/images/ui-icons_777620_256x240.html (from https://tradeedgecap.com/dash/assets/css/jquery-ui.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/css/images/ui-icons_cc0000_256x240.html (from https://tradeedgecap.com/dash/assets/css/jquery-ui.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/css/images/ui-icons_777777_256x240.html (from https://tradeedgecap.com/dash/assets/css/jquery-ui.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/fa-brands-400.eot (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/fa-brands-400d41d.eot? (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/fa-brands-400.svg (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/fa-regular-400.eot (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/fa-regular-400d41d.eot? (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/fa-regular-400.html (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/fa-regular-400.woff (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/fa-regular-400.ttf (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/fa-regular-400.svg (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/fa-solid-900.eot (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/fa-solid-900d41d.eot? (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/fa-solid-900.svg (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/la-brands-400.eot (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/la-brands-400d41d.eot? (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/la-brands-400.html (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/la-brands-400.woff (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/la-brands-400.ttf (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/la-brands-400.svg (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/la-regular-400.eot (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/la-regular-400d41d.eot? (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/la-regular-400.html (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/la-regular-400.woff (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/la-regular-400.ttf (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/la-regular-400.svg (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/la-solid-900.eot (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/la-solid-900d41d.eot? (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/la-solid-900.html (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/la-solid-900.woff (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/la-solid-900.ttf (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/la-solid-900.svg (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/materialdesignicons-webfonta5da.eot?v=4.7.95 (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:46	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/materialdesignicons-webfontd41d.eot? (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/dripicons-v2.eot (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/dripicons-v2d41d.eot? (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/dripicons-v2.woff (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/dripicons-v2.ttf (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/dripicons-v2.svg (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/feather144f.ttf?sdxovp (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/feather144f.woff?sdxovp (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/feather144f.svg?sdxovp (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/themify9f24.eot?-fvbane (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/themifyd41d.eot? (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/themify9f24.svg?-fvbane (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/typicons.eot (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/typiconsd41d.eot? (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/typicons.woff (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/typicons.ttf (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/typicons.svg (from https://tradeedgecap.com/dash/assets/css/icons.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/plugins/dropify/fonts/dropify.eot (from https://tradeedgecap.com/dash/plugins/dropify/css/dropify.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/plugins/dropify/fonts/dropify.woff (from https://tradeedgecap.com/dash/plugins/dropify/css/dropify.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/plugins/dropify/fonts/dropify.ttf (from https://tradeedgecap.com/dash/plugins/dropify/css/dropify.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/plugins/dropify/fonts/dropify.svg (from https://tradeedgecap.com/dash/plugins/dropify/css/dropify.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dashboard/images/cc-back.jpg (from https://tradeedgecap.com/dash/assets/css/mastercard.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/images/open.png (from https://tradeedgecap.com/dash/assets/css/app.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/images/close.png (from https://tradeedgecap.com/dash/assets/css/app.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/images/pattern-sm.png (from https://tradeedgecap.com/dash/assets/css/app.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/inter-light46a7.html?v=3.13 (from https://tradeedgecap.com/dash/assets/css/app.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/inter-light46a7.woff?v=3.13 (from https://tradeedgecap.com/dash/assets/css/app.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/fonts/iter-bold46a7.html?v=3.13 (from https://tradeedgecap.com/dash/assets/css/app.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/images/1.html (from https://tradeedgecap.com/dash/assets/css/app.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/images/products/offer.html (from https://tradeedgecap.com/dash/assets/css/app.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/images/products/bg-cart.png (from https://tradeedgecap.com/dash/assets/css/app.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/images/pattern.png (from https://tradeedgecap.com/dash/assets/css/app.min.css)
+
+22:52:47	Error: 	"Not Found" (404) at link https://tradeedgecap.com/dash/assets/images/auth-bg.png (from https://tradeedgecap.com/dash/assets/css/app.min.css)
+
+
+
+HTTrack Website Copier/3.49-2 mirror complete in 5 minutes 37 seconds : 432 links scanned, 308 files written (36621383 bytes overall) [36694200 bytes received at 108884 bytes/sec], 985019 bytes transferred using HTTP compression in 6 files, ratio 90%, 5.9 requests per connection
+
+(123 errors, 22 warnings, 0 messages)
+

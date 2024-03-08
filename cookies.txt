@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+wrenoptionstrade.com	TRUE	/	FALSE	1999999999	CameFrom	deleted
+wrenoptionstrade.com	TRUE	/	FALSE	1999999999	PHPSESSID	d2ubjp6pkgjtlkud12e8iugo64
+www.thedrive.com	TRUE	/	FALSE	1999999999	client_geo_country	NG
+wrenoptionstrade.com	TRUE	/	FALSE	1999999999	password	deleted
+wrenoptionstrade.com	TRUE	/	FALSE	1999999999	password2	deleted
+
