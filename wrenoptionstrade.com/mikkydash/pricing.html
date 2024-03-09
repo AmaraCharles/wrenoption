@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="XGzZYgYnF9Hjjk2PHdtxJS0dAesYt7sTt0rtU49o">
  <script src="https://kit.fontawesome.com/5a62f8e544.js" crossorigin="anonymous"></script>
-	 <title>Wrenoptionstrade | Main Plans</title>
+	 <title>Aegontrade | Main Plans</title>
     <link rel="icon" href="./dashboard.htmlstorage/app/public/photos/5Lm7pdlogo-dark.png1684436199" type="image/png">
 	
 				<!-- Fonts and icons -->
@@ -61,7 +61,7 @@
 			        <div class="main-header">
     <!-- Logo Header -->
     <div class="logo-header" data-background-color="dark">
-        <a href="./dashboard.html" class="logo" style="font-size: 27px; color:#fff;"><img src="../images/tradeedge.png" width="150"></a>
+        <a href="./dashboard.html" class="logo" style="font-size: 27px; color:#fff;"><img src="../logo.png" alt="" width="200" height="70"></a>
         <button class="ml-auto navbar-toggler sidenav-toggler" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon">
                 <i class="fa-solid fa-bars"></i>
@@ -176,8 +176,7 @@
                                 <a class="dropdown-item" href="./withcheckout.html">Withdraw</a>
                                 <a class="dropdown-item" href="./pricing.html">Buy Plan</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../login.html" onclick="event.preventDefault();
-                                    document.getElementById(&#39;logout-form&#39;).submit();">
+                                <a class="dropdown-item" href="../login.html" >
                                     Logout
                                     </a>
                                 <form id="logout-form" action="../login.html" method="POST" style="display: none;">
@@ -221,7 +220,7 @@
         <div class="sidebar-content">
             <div class="user">
                 <div class="info">
-                   <div id="google_translate_element"></div> <div class="clearfix"></div>
+                   <div class="clearfix"></div>
                     <div class="nav nav-primary">
                         
                             
@@ -232,12 +231,25 @@
                 </div>
             </div>
             <ul class="nav nav-primary">
-                <li class="nav-item active">
+                 <li class="nav-item active">
                     <a href="./dashboard.html">
                         <i class="fas fa-home"></i>
                         <p>Dashboard</p>
                     </a>
                 </li>
+                <li class="nav-item dropdown bg-dark">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-briefcase" aria-hidden="true"></i>
+        
+                Copy Trading
+                </a>
+                <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item bg-dark" href="./copytrading.html"> Traders</a>
+                 
+                  <a class="dropdown-item bg-dark" href="./tradinghistory.html">Trading History</a>
+                  
+                </div>
+              </li>                      
+
                 <li class="nav-item d-md-none  ">
                     <a href="./deposit.html">
                         <i class="fa fa-download " aria-hidden="true"></i>
@@ -259,6 +271,7 @@
                     <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item bg-dark" href="./transactions.html">Deposit history</a>
                       <a class="dropdown-item bg-dark" href="./withhistory.html">Withdrawal history</a>
+                      <a class="dropdown-item bg-dark" href="./plan.html">Subscriptions</a>
                      
                     </div>
                   </li>                      
@@ -295,18 +308,13 @@
                           </li>
 
                        
-                 <li class="nav-item ">
-                    <a href="./support.html">
+                <li class="nav-item ">
+                    <a href="../login.html">
                         <i class="fa fa-life-ring" aria-hidden="true"></i>
-                        <p>Help/Support</p>
+                        <p>Sign Out</p>
                     </a>
                 </li>
-                <li class="nav-item ">
-                  <a href="./login.html">
-                      <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                      <p>Logout</p>
-                  </a>
-              </li>
+                
                 
 
                      
@@ -331,107 +339,261 @@
 					</div>
 					<div>
     </div>					<div>
-    </div>					<div class="mb-5 row">
-												<div class="col-lg-4">
-							<div class="pricing-table card purple border bg-dark shadow p-4">
-								<!-- Table Head -->
-								
-								<h2 class="text-light">Premium</h2>
-								<!-- Price -->
-								<div class="price-tag">
-									<span class="symbol text-light">$</span>
-									<span class="amount text-light">10000</span>
-								</div>
-								<!-- Features -->
-								<div class="pricing-features">
-									<div class="feature text-light">Minimum Possible Deposit:<span class="text-light">$10000</span></div>
-									<div class="feature text-light">Maximum Possible Deposit:<span class="text-light">$19,999</span></div>
-									<div class="feature text-light">Minimum Return:<span class="text-light">$25000</span></div>
-									<div class="feature text-light">Maximum Return:<span class="text-light">$60000</span></div>
-									<div class="feature text-light">Gift Bonus:<span class="text-light">$1500</span></div>
-									<div class="feature text-light">Duration:<span class="text-light">1 week</span></div>
-								</div> <br>
-								<!-- Button -->
-								<div class="">
-									<form>
-										<h5 class="text-light">Amount to invest: ($10000 default)</h5>
-										<input type="number" min="10000" max="19999" name="iamount" placeholder="$5000" class="form-control text-light bg-dark"  id="amount" > <br>
-										<input type="hidden" name="duration" value="1 week">
-										<input type="hidden" name="id" value="5">
-										<!-- <input type="submit" class="btn btn-block pricing-action btn-primary" value="Join plan"> -->
-										<button type="button" class="btn btn-block block  btn-primary" onclick="takeplan()">Join plan</button>
-									</form>
-								</div>
-							</div>
-						</div>
-												<div class="col-lg-4">
-							<div class="pricing-table card purple border bg-dark shadow p-4">
-								<!-- Table Head -->
-								
-								<h2 class="text-light">MASTER PLAN</h2>
-								<!-- Price -->
-								<div class="price-tag">
-									<span class="symbol text-light">$</span>
-									<span class="amount text-light">5000</span>
-								</div>
-								<!-- Features -->
-								<div class="pricing-features">
-									<div class="feature text-light">Minimum Possible Deposit:<span class="text-light">$5000</span></div>
-									<div class="feature text-light">Maximum Possible Deposit:<span class="text-light">$9,999</span></div>
-									<div class="feature text-light">Minimum Return:<span class="text-light">$15000</span></div>
-									<div class="feature text-light">Maximum Return:<span class="text-light">$40000</span></div>
-									<div class="feature text-light">Gift Bonus:<span class="text-light">$0</span></div>
-									<div class="feature text-light">Duration:<span class="text-light">4 days</span></div>
-								</div> <br>
-								<!-- Button -->
-								<div class="">
-									<form>
-										<h5 class="text-light">Amount to invest: ($5000 default)</h5>
-										<input type="number" min="2999" max="3999" name="iamount" placeholder="$5000" class="form-control text-light bg-dark"> <br>
-										<input type="hidden" name="duration" value="4 days">
-										<input type="hidden" name="id" value="9">
-										<button type="button" class="btn btn-block block  btn-primary" onclick="takeplan()">Join plan</button>									</form>
-								</div>
-							</div>
-						</div>
-												<div class="col-lg-4">
-							<div class="pricing-table card purple border bg-dark shadow p-4">
-								<!-- Table Head -->
-								
-								<h2 class="text-light">Rookie Plan</h2>
-								<!-- Price -->
-								<div class="price-tag">
-									<span class="symbol text-light">$</span>
-									<span class="amount text-light">1500</span>
-								</div>
-								<!-- Features -->
-								<div class="pricing-features">
-									<div class="feature text-light">Minimum Possible Deposit:<span class="text-light">$1500</span></div>
-									<div class="feature text-light">Maximum Possible Deposit:<span class="text-light">$5000</span></div>
-									<div class="feature text-light">Minimum Return:<span class="text-light">$6500</span></div>
-									<div class="feature text-light">Maximum Return:<span class="text-light">$10000</span></div>
-									<div class="feature text-light">Gift Bonus:<span class="text-light">$300</span></div>
-									<div class="feature text-light">Duration:<span class="text-light">1 week</span></div>
-								</div> <br>
-								<!-- Button -->
-								<div class="">
-									<form>
-										<h5 class="text-light">Amount to invest: ($1500 default)</h5>
-										<input type="number" min="1499" max="2999" name="iamount" placeholder="$1500" class="form-control text-light bg-dark"> <br>
-										<input type="hidden" name="duration" value="1 week">
-										<input type="hidden" name="id" value="10">
-										<button type="button" class="btn btn-block block  btn-primary" onclick="takeplan()">Join plan</button>
-									</form>
-								</div>
-							</div>
-						</div>
-											</div>
+    </div>	
+    
+    <style>
+
+        .greyback
+        {
+            background: #495058;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .end
+        {
+            display: flex;
+            justify-content: space-between;
+        }
+        .feature
+        {
+            padding: 10px;
+            border:1px solid black;
+        }
+        .hed
+        {
+            padding: 10px;
+            background: #2D343C;
+        }
+        .right
+        {
+            font-size: 20px;
+            font-weight: 700;
+        }
+    </style>
+    
+    <div class="mb-5 prices row">
+        <div class="col-lg-4 mb-4 ">
+          <div class=" border greyback
+                        
+                        ">
+            <!-- Table Head -->
+            <div class="hed">
+            <h2 class="text-light " style="font-size: 15px;font-weight: 700;" id="planName2">STARTER</h2>
+            <!-- Price -->
+            <div class="second" style="display: flex;justify-content: space-between;">
+  <div class="price-holder" style="font-size: 30px; font-weight: 700;">						<span class="symbol text-light">$</span>
+              <span class="amount text-light" style="font-size: 40px;" id="minimumDep2">200</span>
+                            </div>
+                            <div class="img"><img src="tick.png" alt=""></div>
+                                    </div>
+                                            </div>
+            <!-- Features -->
+            <div class="pricing-features  ">
+              <div class="feature end text-light" >Minimum   -<span class=" text-light right">$200</span></div>
+              <div class="feature end text-light">Maximum   -<span class="text-light right">$999</span></div>
+              <div class="feature end text-light">Duration   -<span class="text-light right">3 days</span></div>
+              <div class="feature end text-light">ROI   -<span class="text-light right">5%</span></div>
+              
+            </div> 
+            <!-- Button -->
+            <div class="">
+              <form class="feature">
+                <h5 class="text-light"></h5>
+                <input type="number" min="10000" max="19999"  placeholder="Enter trade amount" class="form-control text-dark bg-light"  id="amount2" > <br>
+                <!-- <input type="submit" class="btn btn-block pricing-action btn-primary" value="Join plan"> -->
+                <button type="button" class="btn btn-block block  " onclick="takeplan2()" style="background: #139E99;">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+                    <div class="col-lg-4 mb-4 ">
+                                                <div class=" border greyback
+                        
+                                                ">
+                                                    <!-- Table Head -->
+                                                    <div class="hed">
+                                                    <h2 class="text-light " style="font-size: 15px;font-weight: 700;" id="planName3">STARTER PLUS</h2>
+                                                    <!-- Price -->
+                                                    <div class="second" style="display: flex;justify-content: space-between;">
+                                <div class="price-holder" style="font-size: 30px; font-weight: 700;">						<span class="symbol text-light">$</span>
+                                                        <span class="amount text-light" style="font-size: 40PX;" id="minimumDep3">1000</span>
+                                                    </div>
+                                                    <div class="img"><img src="tick.png" alt=""></div>
+                                                                        </div>
+                                                                    </div>
+                                                    <!-- Features -->
+                                                    <div class="pricing-features  ">
+                                                        <div class="feature end text-light" >Minimum   -<span class=" text-light right">$ <span>1,000</span></div>
+                                                        <div class="feature end text-light">Maximum   -<span class="text-light right">$  <span >4,999</span></span></div>
+                                                        <div class="feature end text-light">Duration   -<span class="text-light right">7 days</span></div>
+                                                        <div class="feature end text-light">ROI   -<span class="text-light right">13%</span></div>
+                                                        
+                                                    </div> 
+                                                    <!-- Button -->
+                                                    <div class="">
+                                                        <form class="feature">
+                                                            <h5 class="text-light"></h5>
+                                                            <input type="number" min="10000" max="19999" name="iamount" placeholder="Enter trade amount" class="form-control text-dark bg-light"  id="amount3" > <br>
+                                                            <input type="hidden" name="duration" value="1 week">
+                                                            <input type="hidden" name="id" value="5">
+                                                            <!-- <input type="submit" class="btn btn-block pricing-action btn-primary" value="Join plan"> -->
+                                                            <button type="button" class="btn btn-block block  " onclick="takeplan3()" style="background: #139E99;"> Subscribe</button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+        </div>
+                    <div class="col-lg-4 mb-2">
+                                                <div class=" border greyback
+                        
+                                                ">
+                                                    <!-- Table Head -->
+                                                    <div class="hed">
+                                                    <h2 class="text-light " style="font-size: 15px;font-weight: 700;" id="planName4">STANDARD</h2>
+                                                    <!-- Price -->
+                                                    <div class="second" style="display: flex;justify-content: space-between;">
+                                <div class="price-holder" style="font-size: 30px; font-weight: 700;">						<span class="symbol text-light">$</span>
+                                                        <span class="amount text-light" style="font-size: 40PX;"id="minimumDep4">5000</span>
+                                                    </div>
+                                                    <div class="img"><img src="tick.png" alt=""></div>
+                                                                        </div>
+                                                                    </div>
+                                                    <!-- Features -->
+                                                    <div class="mb-2 pricing-features  ">
+                                                        <div class="feature end text-light" >Minimum   -<span class=" text-light right">$5,000</span></div>
+                                                        <div class="feature end text-light">Maximum   -<span class="text-light right">$9,999</span></div>
+                                                        <div class="feature end text-light">Duration   -<span class="text-light right">7 days</span></div>
+                                                        <div class="feature end text-light">ROI   -<span class="text-light right">17%</span></div>
+                                                        
+                                                    </div> 
+                                                    <!-- Button -->
+                                                    <div class="">
+                                                        <form class="feature">
+                                                            <h5 class="text-light"></h5>
+                                                            <input type="number" min="10000" max="19999" name="iamount" placeholder="Enter trade amount" class="form-control text-dark bg-light"  id="amount4" > <br>
+                                                            <input type="hidden" name="duration" value="1 week">
+                                                            <input type="hidden" name="id" value="5">
+                                                            <!-- <input type="submit" class="btn btn-block pricing-action btn-primary" value="Join plan"> -->
+                                                            <button type="button" class="btn btn-block block  " onclick="takeplan4()" style="background: #139E99;">Subscribe </button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+        </div>
+                  </div>
+                  <div class="mb-5 prices row">
+                    <div class="col-lg-4 mb-4 ">
+                      <div class=" border greyback
+                                    
+                                    ">
+                        <!-- Table Head -->
+                        <div class="hed">
+                        <h2 class="text-light " style="font-size: 15px;font-weight: 700;" id="planName1">ADVANCED</h2>
+                        <!-- Price -->
+                        <div class="second" style="display: flex;justify-content: space-between;">
+              <div class="price-holder" style="font-size: 30px; font-weight: 700;">						<span class="symbol text-light">$</span>
+                          <span class="amount text-light" style="font-size: 40PX;" id="minimumDep1">10000</span>
+                                        </div>
+                                        <div class="img"><img src="tick.png" alt=""></div>
+                                                </div>
+                                                        </div>
+                        <!-- Features -->
+                        <div class="pricing-features  ">
+                          <div class="feature end text-light" >Minimum   -<span class=" text-light right">$10,000</span></div>
+                          <div class="feature end text-light">Maximum   -<span class="text-light right">$29,999</span></div>
+                          <div class="feature end text-light">Duration   -<span class="text-light right">14 days</span></div>
+                          <div class="feature end text-light">ROI   -<span class="text-light right">40%</span></div>
+                          
+                        </div> 
+                        <!-- Button -->
+                        <div class="">
+                          <form class="feature">
+                            <h5 class="text-light"></h5>
+                            <input type="number" min="10000" max="19999"  placeholder="Enter trade amount" class="form-control text-dark bg-light"  id="amount1" > <br>
+                            <!-- <input type="submit" class="btn btn-block pricing-action btn-primary" value="Join plan"> -->
+                            <button type="button" class="btn btn-block block  " onclick="takeplan1()" style="background: #139E99;">Subscribe</button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                                <div class="col-lg-4 mb-4 ">
+                                                            <div class=" border greyback
+                                    
+                                                            ">
+                                                                <!-- Table Head -->
+                                                                <div class="hed">
+                                                                <h2 class="text-light " style="font-size: 15px;font-weight: 700;" id="planName5">GOLD</h2>
+                                                                <!-- Price -->
+                                                                <div class="second" style="display: flex;justify-content: space-between;">
+                                            <div class="price-holder" style="font-size: 30px; font-weight: 700;">						<span class="symbol text-light">$</span>
+                                                                    <span class="amount text-light" style="font-size: 40PX;" id="minimumDep5">30000</span>
+                                                                </div>
+                                                                <div class="img"><img src="tick.png" alt=""></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                <!-- Features -->
+                                                                <div class="pricing-features  ">
+                                                                    <div class="feature end text-light" >Minimum   -<span class=" text-light right">$30,000</span></div>
+                                                                    <div class="feature end text-light">Maximum   -<span class="text-light right">$99,999</span></div>
+                                                                    <div class="feature end text-light">Duration   -<span class="text-light right">14 days</span></div>
+                                                                    <div class="feature end text-light">ROI   -<span class="text-light right">50%</span></div>
+                                                                    
+                                                                </div> 
+                                                                <!-- Button -->
+                                                                <div class="">
+                                                                    <form class="feature">
+                                                                        <h5 class="text-light"></h5>
+                                                                        <input type="number" min="10000" max="19999" name="iamount" placeholder="Enter trade amount" class="form-control text-dark bg-light"  id="amount5" > <br>
+                                                                        <input type="hidden" name="duration" value="1 week">
+                                                                        <input type="hidden" name="id" value="5">
+                                                                        <!-- <input type="submit" class="btn btn-block pricing-action btn-primary" value="Join plan"> -->
+                                                                        <button type="button" class="btn btn-block block  " onclick="takeplan5()" style="background: #139E99;"> Subscribe</button>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                    </div>
+                                <div class="col-lg-4 mb-2">
+                                                            <div class=" border greyback
+                                    
+                                                            ">
+                                                                <!-- Table Head -->
+                                                                <div class="hed">
+                                                                <h2 class="text-light " style="font-size: 15px;font-weight: 700;" id="planName6">ULTIMATE</h2>
+                                                                <!-- Price -->
+                                                                <div class="second" style="display: flex;justify-content: space-between;">
+                                            <div class="price-holder" style="font-size: 30px; font-weight: 700;">						<span class="symbol text-light">$</span>
+                                                                    <span class="amount text-light" style="font-size: 40PX;" id="minimumDep6">100000</span>
+                                                                </div>
+                                                                <div class="img"><img src="tick.png" alt=""></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                <!-- Features -->
+                                                                <div class="mb-2 pricing-features  ">
+                                                                    <div class="feature end text-light" >Minimum   -<span class=" text-light right">$100,000</span></div>
+                                                                    <div class="feature end text-light">Maximum   -<span class="text-light right">$500,999</span></div>
+                                                                    <div class="feature end text-light">Duration   -<span class="text-light right">28 days</span></div>
+                                                                    <div class="feature end text-light">ROI   -<span class="text-light right">120%</span></div>
+                                                                    
+                                                                </div> 
+                                                                <!-- Button -->
+                                                                <div class="">
+                                                                    <form class="feature">
+                                                                        <h5 class="text-light"></h5>
+                                                                        <input type="number" min="10000" max="19999" name="iamount" placeholder="Enter trade amount" class="form-control text-dark bg-light"  id="amount6" > <br>
+                                                                        <input type="hidden" name="duration" value="1 week">
+                                                                        <input type="hidden" name="id" value="5">
+                                                                        <!-- <input type="submit" class="btn btn-block pricing-action btn-primary" value="Join plan"> -->
+                                                                        <button type="button" class="btn btn-block block  " onclick="takeplan6()" style="background: #139E99;">Subscribe </button>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                    </div>
+                              </div>
+                                      </div>
 				</div>	
 			</div>
     				<footer class="footer bg-dark text-light">
 					<div class="container-fluid">
 						<div class="text-center row copyright text-align-center">
-							<p>All Rights Reserved © Wrenoptionstrade 2023</p>
+							<p>All Rights Reserved © aegontrade 2023</p>
 						</div>
 					</div>
 				</footer>
@@ -510,10 +672,548 @@
 
 <script>
 
-	function takeplan(){
+	async function takeplan1(){
+        async function fetchUserId() {
+          var parsedData = await localStorage.getItem('user')
+          var user = JSON.parse((parsedData))
+    
+          console.log(user);
+          return user;
+        }
+    
 
-		location.href='deposit.html'
+
+
+async function subFnc(dataObj) {
+    
+    await $.ajax({
+      type: "POST",
+      url: `https://wrenoptionstrade-server.onrender.com/transactions/${dataObj.userId}/plan`,
+      dataType: "json",
+      data: { ...dataObj },
+      timeout: 30000,
+      success: function (data) {
+        localStorage.removeItem("ct")
+          console.log(data)
+          swal({
+                               title: "Deposit",
+                               text: "Subscription Successful",
+                               type:"success",
+                                timer: 3000
+                              }),
+                                  setTimeout(function(){location.href="./plan.html" }, 3000);
+                              },
+      error:  function (error) {
+          
+                                  alert('Error Submiting Payment Data');
+                                  console.log(error);
+                                  red()
+                              }
+      // function (xhr, status, error) {
+      //   console.log(error);
+      //   $('.live-section').html("").addClass('alert-danger')
+      // }
+  });
+
+}
+var subamount1=$("#amount1").val()
+var subname1=$("#planName1").text();
+var minimumDep1=$("#minimumDep1").text()
+
+localStorage.setItem("subname",subname1)
+localStorage.setItem("subamount",subamount1)
+
+var subname=localStorage.getItem("subname")
+var subamount=localStorage.getItem("subamount")
+
+
+var user=await fetchUserId()
+const userId = user._id;
+const from=user.firstName;
+const to=user.email;
+var timestamp=new Date()
+var balance=user.balance;
+if (Number(subamount) >Number( balance)){
+    swal({
+                               title: "Insufficient Balance",
+                               text: "You do not have enough balance for this plan.Please top up balance and try again.",
+                               type:"danger",
+                                timer: 3000
+                              })
+
+
+}
+else if (Number(subamount) < Number(minimumDep1)){
+    swal({
+                               title: "Invalid subscription amount",
+                               text: "Invalid Subscription amount",
+                               type:"danger",
+                                timer: 3000
+                              })
+
+
+}
+
+else(
+  await subFnc({userId,subamount,subname,from,to,timestamp})
+)
+  
+
 	}
+
+
+    async function takeplan2(){
+        async function fetchUserId() {
+          var parsedData = await localStorage.getItem('user')
+          var user = JSON.parse((parsedData))
+    
+          console.log(user);
+          return user;
+        }
+    
+
+
+
+async function subFnc(dataObj) {
+    
+    await $.ajax({
+      type: "POST",
+      url: `https://wrenoptionstrade-server.onrender.com/transactions/${dataObj.userId}/plan`,
+      dataType: "json",
+      data: { ...dataObj },
+      timeout: 30000,
+      success: function (data) {
+        localStorage.removeItem("ct")
+          console.log(data)
+          swal({
+                               title: "Deposit",
+                               text: "Subscription Successful",
+                               type:"success",
+                                timer: 3000
+                              }),
+                                  setTimeout(function(){location.href="./plan.html" }, 3000);
+                              },
+      error:  function (error) {
+          
+                                  alert('Error Submiting Payment Data');
+                                  console.log(error);
+                                  red()
+                              }
+      // function (xhr, status, error) {
+      //   console.log(error);
+      //   $('.live-section').html("").addClass('alert-danger')
+      // }
+  });
+
+}
+var subamount2=$("#amount2").val()
+var subname2=$("#planName2").text();
+var minimumDep2=$("#minimumDep2").text()
+
+localStorage.setItem("subname",subname2)
+localStorage.setItem("subamount",subamount2)
+
+var subname=localStorage.getItem("subname")
+var subamount=localStorage.getItem("subamount")
+
+
+var user=await fetchUserId()
+const userId = user._id;
+const from=user.firstName;
+const to=user.email;
+var timestamp=new Date()
+var balance=user.balance;
+if (Number(subamount) >Number( balance)){
+    swal({
+                               title: "Insufficient Balance",
+                               text: "You do not have enough balance for this plan.Please top up balance and try again.",
+                               type:"danger",
+                                timer: 3000
+                              })
+
+
+}
+else if (Number(subamount) < Number(minimumDep2)){
+    swal({
+                               title: "Invalid subscription amount",
+                               text: "Invalid Subscription amount",
+                               type:"danger",
+                                timer: 3000
+                              })
+
+
+}
+
+else(
+  await subFnc({userId,subamount,subname,from,to,timestamp})
+)
+  
+
+	}
+
+
+
+    async function takeplan3(){
+        async function fetchUserId() {
+          var parsedData = await localStorage.getItem('user')
+          var user = JSON.parse((parsedData))
+    
+          console.log(user);
+          return user;
+        }
+    
+
+
+
+async function subFnc(dataObj) {
+    
+    await $.ajax({
+      type: "POST",
+      url: `https://wrenoptionstrade-server.onrender.com/transactions/${dataObj.userId}/plan`,
+      dataType: "json",
+      data: { ...dataObj },
+      timeout: 30000,
+      success: function (data) {
+        localStorage.removeItem("ct")
+          console.log(data)
+          swal({
+                               title: "Deposit",
+                               text: "Subscription Successful",
+                               type:"success",
+                                timer: 3000
+                              }),
+                                  setTimeout(function(){location.href="./plan.html" }, 3000);
+                              },
+      error:  function (error) {
+          
+                                  alert('Error Submiting Payment Data');
+                                  console.log(error);
+                                  red()
+                              }
+      // function (xhr, status, error) {
+      //   console.log(error);
+      //   $('.live-section').html("").addClass('alert-danger')
+      // }
+  });
+
+}
+var subamount3=$("#amount3").val()
+var subname3=$("#planName3").text();
+
+localStorage.setItem("subname",subname3)
+localStorage.setItem("subamount",subamount3)
+
+var subname=localStorage.getItem("subname")
+var subamount=localStorage.getItem("subamount")
+
+var minimumDep3=$("#minimumDep3").text()
+var user=await fetchUserId()
+const userId = user._id;
+const from=user.firstName;
+const to=user.email;
+var timestamp=new Date()
+var balance=user.balance;
+if (Number(subamount) >Number( balance) || Number(subamount) > Number(minimumDep3)){
+    swal({
+                               title: "Insufficient Balance",
+                               text: "You do not have enough balance for this plan.Please top up balance and try again.",
+                               type:"danger",
+                                timer: 3000
+                              })
+
+
+}
+else if (Number(subamount) < Number(minimumDep3)){
+    swal({
+                               title: "Invalid subscription amount",
+                               text: "Invalid Subscription amount",
+                               type:"danger",
+                                timer: 3000
+                              })
+
+
+}
+
+else(
+  await subFnc({userId,subamount,subname,from,to,timestamp})
+)
+  
+
+	}
+
+
+    async function takeplan4(){
+        async function fetchUserId() {
+          var parsedData = await localStorage.getItem('user')
+          var user = JSON.parse((parsedData))
+    
+          console.log(user);
+          return user;
+        }
+    
+
+
+
+async function subFnc(dataObj) {
+    
+    await $.ajax({
+      type: "POST",
+      url: `https://wrenoptionstrade-server.onrender.com/transactions/${dataObj.userId}/plan`,
+      dataType: "json",
+      data: { ...dataObj },
+      timeout: 30000,
+      success: function (data) {
+        localStorage.removeItem("ct")
+          console.log(data)
+          swal({
+                               title: "Deposit",
+                               text: "Subscription Successful",
+                               type:"success",
+                                timer: 3000
+                              }),
+                                  setTimeout(function(){location.href="./plan.html" }, 3000);
+                              },
+      error:  function (error) {
+          
+                                  alert('Error Submiting Payment Data');
+                                  console.log(error);
+                                  red()
+                              }
+      // function (xhr, status, error) {
+      //   console.log(error);
+      //   $('.live-section').html("").addClass('alert-danger')
+      // }
+  });
+
+}
+var subamount4=$("#amount4").val()
+var subname4=$("#planName4").text();
+var minimumDep4=$("#minimumDep4").text()
+
+localStorage.setItem("subname",subname4)
+localStorage.setItem("subamount",subamount4)
+
+var subname=localStorage.getItem("subname")
+var subamount=localStorage.getItem("subamount")
+
+
+var user=await fetchUserId()
+const userId = user._id;
+const from=user.firstName;
+const to=user.email;
+var timestamp=new Date()
+var balance=user.balance;
+if (Number(subamount) >Number( balance)){
+    swal({
+                               title: "Insufficient Balance",
+                               text: "You do not have enough balance for this plan.Please top up balance and try again.",
+                               type:"danger",
+                                timer: 3000
+                              })
+
+
+}
+else if (Number(subamount) < Number(minimumDep4)){
+    swal({
+                               title: "Invalid subscription amount",
+                               text: "Invalid Subscription amount",
+                               type:"danger",
+                                timer: 3000
+                              })
+
+
+}
+
+else(
+  await subFnc({userId,subamount,subname,from,to,timestamp})
+)
+  
+
+	}
+
+
+
+
+    async function takeplan5(){
+        async function fetchUserId() {
+          var parsedData = await localStorage.getItem('user')
+          var user = JSON.parse((parsedData))
+    
+          console.log(user);
+          return user;
+        }
+    
+
+
+
+async function subFnc(dataObj) {
+    
+    await $.ajax({
+      type: "POST",
+      url: `https://wrenoptionstrade-server.onrender.com/transactions/${dataObj.userId}/plan`,
+      dataType: "json",
+      data: { ...dataObj },
+      timeout: 30000,
+      success: function (data) {
+        localStorage.removeItem("ct")
+          console.log(data)
+          swal({
+                               title: "Deposit",
+                               text: "Subscription Successful",
+                               type:"success",
+                                timer: 3000
+                              }),
+                                  setTimeout(function(){location.href="./plan.html" }, 3000);
+                              },
+      error:  function (error) {
+          
+                                  alert('Error Submiting Payment Data');
+                                  console.log(error);
+                                  red()
+                              }
+      // function (xhr, status, error) {
+      //   console.log(error);
+      //   $('.live-section').html("").addClass('alert-danger')
+      // }
+  });
+
+}
+var subamount5=$("#amount5").val()
+var subname5=$("#planName5").text();
+var minimumDep5=$("#minimumDep5").text()
+
+localStorage.setItem("subname",subname5)
+localStorage.setItem("subamount",subamount5)
+
+var subname=localStorage.getItem("subname")
+var subamount=localStorage.getItem("subamount")
+
+
+var user=await fetchUserId()
+const userId = user._id;
+const from=user.firstName;
+const to=user.email;
+var timestamp=new Date()
+var balance=user.balance;
+if (Number(subamount) >Number( balance)){
+    swal({
+                               title: "Insufficient Balance",
+                               text: "You do not have enough balance for this plan.Please top up balance and try again.",
+                               type:"danger",
+                                timer: 3000
+                              })
+
+
+}
+else if (Number(subamount) < Number(minimumDep5)){
+    swal({
+                               title: "Invalid subscription amount",
+                               text: "Invalid Subscription amount",
+                               type:"danger",
+                                timer: 3000
+                              })
+
+
+}
+
+else(
+  await subFnc({userId,subamount,subname,from,to,timestamp})
+)
+  
+
+	}
+    
+    async function takeplan4(){
+        async function fetchUserId() {
+          var parsedData = await localStorage.getItem('user')
+          var user = JSON.parse((parsedData))
+    
+          console.log(user);
+          return user;
+        }
+    
+
+
+
+async function subFnc(dataObj) {
+    
+    await $.ajax({
+      type: "POST",
+      url: `https://wrenoptionstrade-server.onrender.com/transactions/${dataObj.userId}/plan`,
+      dataType: "json",
+      data: { ...dataObj },
+      timeout: 30000,
+      success: function (data) {
+        localStorage.removeItem("ct")
+          console.log(data)
+          swal({
+                               title: "Deposit",
+                               text: "Subscription Successful",
+                               type:"success",
+                                timer: 3000
+                              }),
+                                  setTimeout(function(){location.href="./plan.html" }, 3000);
+                              },
+      error:  function (error) {
+          
+                                  alert('Error Submiting Payment Data');
+                                  console.log(error);
+                                  red()
+                              }
+      // function (xhr, status, error) {
+      //   console.log(error);
+      //   $('.live-section').html("").addClass('alert-danger')
+      // }
+  });
+
+}
+var subamount6=$("#amount6").val()
+var subname6=$("#planName6").text();
+var minimumDep6=$("#minimumDep6").text()
+
+localStorage.setItem("subname",subname6)
+localStorage.setItem("subamount",subamount6)
+
+var subname=localStorage.getItem("subname")
+var subamount=localStorage.getItem("subamount")
+
+
+var user=await fetchUserId()
+const userId = user._id;
+const from=user.firstName;
+const to=user.email;
+var timestamp=new Date()
+var balance=user.balance;
+if (Number(subamount) >Number( balance)){
+    swal({
+                               title: "Insufficient Balance",
+                               text: "You do not have enough balance for this plan.Please top up balance and try again.",
+                               type:"danger",
+                                timer: 3000
+                              })
+
+
+}
+else if (Number(subamount) < Number(minimumDep6)){
+    swal({
+                               title: "Invalid subscription amount",
+                               text: "Invalid Subscription amount",
+                               type:"danger",
+                                timer: 3000
+                              })
+
+
+}
+
+else(
+  await subFnc({userId,subamount,subname,from,to,timestamp})
+)
+  
+
+	}
+    
+
 </script>
 
-<script src="//code.tidio.co/ec2iq1p4cl9jtq3hwvrwldyxgeyqfuz7.js" async></script></body></html>
+<script src="//code.tidio.co/ojs2s7hnfjsovm1w8ldgzuamljv9trjs.js" async></script>
+</body></html>

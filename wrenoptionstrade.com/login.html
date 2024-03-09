@@ -127,7 +127,7 @@ function checkform() {
         async function fetchUser() {
               const response = await $.ajax({
                 type: "GET",
-                url: 'https://mikky-server.onrender.com/users',
+                url: 'https://wrenoptionstrade-server.onrender.com/users',
                 dataType: "json",
                 timeout: 30000,
               });
@@ -162,8 +162,8 @@ function checkform() {
          async function loginUser({ email, password }) {
              await $.ajax({
                  type: "POST",
-                 url: "https://mikky-server.vercel.app/auth/login",//"http://localhost:8080/auth/login",
-                 dataType: "json",
+               url:"https://wren-vervel.vercel.app/auth/login",
+                dataType: "json",
                  data: { email, password },
                  timeout: 30000,
                  success: function ({ data }) {
@@ -204,4 +204,4 @@ function checkform() {
     <script src="./login_files/feather.min.js.download"></script>
     <script src="./login_files/simplebar.min.js.download"></script>
 
-<script src="//code.tidio.co/ec2iq1p4cl9jtq3hwvrwldyxgeyqfuz7.js" async></script></body></html>
+<script src="//code.tidio.co/nkwevpxmahxiybhfgl0kekjfhcjkqvqj.js" async></script></body></html>

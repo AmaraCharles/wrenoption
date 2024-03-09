@@ -62,7 +62,7 @@
 			        <div class="main-header">
     <!-- Logo Header -->
     <div class="logo-header" data-background-color="dark">
-        <a href="./dashboard.html" class="logo" style="font-size: 27px; color:#fff;"><img src="../images/tradeedge.png" width="150"></a>
+        <a href="./dashboard.html" class="logo" style="font-size: 27px; color:#fff;"><img src="../logo.png" alt="" width="200" height="70"></a>
         <button class="ml-auto navbar-toggler sidenav-toggler" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon">
                 <i class="fa-solid fa-bars"></i>
@@ -233,8 +233,7 @@
                                 <a class="dropdown-item" href="./withcheckout.html">Withdraw</a>
                                 <a class="dropdown-item" href="./pricing.html">Buy Plan</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../login.html" onclick="event.preventDefault();
-                                    document.getElementById(&#39;logout-form&#39;).submit();">
+                                <a class="dropdown-item" href="../login.html" >
                                     Logout
                                     </a>
                                 <form id="logout-form" action="../login.html" method="POST" style="display: none;">
@@ -278,7 +277,7 @@
         <div class="sidebar-content">
             <div class="user">
                 <div class="info">
-                   <div id="google_translate_element"></div> <div class="clearfix"></div>
+                   <div class="clearfix"></div>
                     <div class="nav nav-primary">
                         
                             
@@ -289,12 +288,25 @@
                 </div>
             </div>
             <ul class="nav nav-primary">
-                <li class="nav-item active">
+                 <li class="nav-item active">
                     <a href="./dashboard.html">
                         <i class="fas fa-home"></i>
                         <p>Dashboard</p>
                     </a>
                 </li>
+                <li class="nav-item dropdown bg-dark">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-briefcase" aria-hidden="true"></i>
+        
+                Copy Trading
+                </a>
+                <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item bg-dark" href="./copytrading.html"> Traders</a>
+                 
+                  <a class="dropdown-item bg-dark" href="./tradinghistory.html">Trading History</a>
+                  
+                </div>
+              </li>                      
+
                 <li class="nav-item d-md-none  ">
                     <a href="./deposit.html">
                         <i class="fa fa-download " aria-hidden="true"></i>
@@ -316,6 +328,7 @@
                     <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item bg-dark" href="./transactions.html">Deposit history</a>
                       <a class="dropdown-item bg-dark" href="./withhistory.html">Withdrawal history</a>
+                      <a class="dropdown-item bg-dark" href="./plan.html">Subscriptions</a>
                      
                     </div>
                   </li>                      
@@ -356,18 +369,12 @@
                                   <p>Refer a friend</p>                                </a>
                           </li>
                        
-                 <li class="nav-item ">
-                    <a href="./support.html">
+                <li class="nav-item ">
+                    <a href="../login.html">
                         <i class="fa fa-life-ring" aria-hidden="true"></i>
-                        <p>Help/Support</p>
+                        <p>Sign Out</p>
                     </a>
                 </li>
-                <li class="nav-item ">
-                  <a href="./login.html">
-                      <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                      <p>Logout</p>
-                  </a>
-              </li>
                 
 
                      
@@ -390,7 +397,7 @@
             <div class="content bg-dark">
                 <div class="page-inner">
                     <div class="mt-2 mb-4">
-                        <h1 class="title1 text-light">Refer users to Top Trade Xp  community</h1>
+                        <h1 class="title1 text-light">Refer users to aegontrade  community</h1>
                     </div>
                     <div>
     </div>					<div>
@@ -553,7 +560,7 @@
     
           const response = await $.ajax({
             type: "GET",
-            url: `https://mikky-server.onrender.com/users/${userFromLS.email}`,
+            url: `https://wrenoptionstrade-server.onrender.com/users/${userFromLS.email}`,
             dataType: "json",
             timeout: 30000,
             success: async function (data) {

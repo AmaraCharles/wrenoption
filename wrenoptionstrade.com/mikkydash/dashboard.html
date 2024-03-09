@@ -9,7 +9,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="XGzZYgYnF9Hjjk2PHdtxJS0dAesYt7sTt0rtU49o">
  <script src="https://kit.fontawesome.com/5a62f8e544.js" crossorigin="anonymous"></script>
-	 <title>Wrenoptionstrade | User panel</title>
+	 <title>Aegontrade | User panel</title>
     <link rel="icon" href="./dashboard.htmlstorage/app/public/photos/5Lm7pdlogo-dark.png1684436199" type="image/png">
 				<!-- Fonts and icons -->
 		<script src="./dashboard_files/webfont.min.js.download"></script>
@@ -61,7 +61,7 @@
 			        <div class="main-header">
     <!-- Logo Header -->
     <div class="logo-header" data-background-color="dark">
-        <a href="./dashboard.html" class="logo" style="font-size: 27px; color:#fff;"><img src="../images/tradeedge.png" width="150"></a>
+        <a href="./dashboard.html" class="logo" style="font-size: 27px; color:#fff;"><img src="../logo.png" alt="" width="200" height="70"></a>
         
         <button class="ml-auto navbar-toggler sidenav-toggler" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon">
@@ -127,12 +127,18 @@
       animation: fadeIn 1.7s linear;
       animation-delay: 4.5s;
     }
+    #copytrading-holder
+    {
+      display: none;
+    }
 
     @keyframes blinker {
       50% {
         opacity: 0;
       }
     }
+
+    
   </style>
 <style>
     .blink_me {
@@ -235,8 +241,7 @@
                                 <a class="dropdown-item" href="./withcheckout.html">Withdraw</a>
                                 <a class="dropdown-item" href="./pricing.html">Buy Plan</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../login.html" onclick="event.preventDefault();
-                                    document.getElementById(&#39;logout-form&#39;).submit();">
+                                <a class="dropdown-item" href="../login.html" >
                                     Logout
                                     </a>
                                 <form id="logout-form" action="../login.html" method="POST" style="display: none;">
@@ -280,7 +285,7 @@
         <div class="sidebar-content">
             <div class="user">
                 <div class="info">
-                    <div id="google_translate_element"></div>           
+                              
           <div class="clearfix"></div>
                     <div class="nav nav-primary">
                         
@@ -293,12 +298,26 @@
                 </div>
             </div>
             <ul class="nav nav-primary">
-                <li class="nav-item active">
+                 <li class="nav-item active">
                     <a href="./dashboard.html">
                         <i class="fas fa-home"></i>
                         <p>Dashboard</p>
                     </a>
                 </li>
+              
+              <li class="nav-item dropdown bg-dark">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bars" aria-hidden="true"></i>
+        
+                Copy Trading
+                </a>
+                <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item bg-dark" href="./copytrading.html"> Traders</a>
+                 
+                  <a class="dropdown-item bg-dark" href="./tradinghistory.html">Trading History</a>
+                  
+                </div>
+              </li>                      
+            
                 <li class="nav-item d-md-none  ">
                     <a href="./deposit.html">
                         <i class="fa fa-download " aria-hidden="true"></i>
@@ -320,6 +339,7 @@
                     <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item bg-dark" href="./transactions.html">Deposit history</a>
                       <a class="dropdown-item bg-dark" href="./withhistory.html">Withdrawal history</a>
+                      <a class="dropdown-item bg-dark" href="./plan.html">Subscriptions</a>
                      
                     </div>
                   </li>                      
@@ -360,19 +380,13 @@
                                   <p>Refer a friend</p>                                </a>
                           </li>
                        
-                 <li class="nav-item ">
-                    <a href="./support.html">
+               <li class="nav-item ">
+                    <a href="../login.html">
                         <i class="fa fa-life-ring" aria-hidden="true"></i>
-                        <p>Help/Support</p>
+                        <p>Sign Out</p>
                     </a>
-                </li>
+                </li> 
                
-                <li class="nav-item ">
-                  <a href="./login.html">
-                      <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                      <p>Logout</p>
-                  </a>
-              </li>
                   
             </ul>
            
@@ -451,7 +465,7 @@
 
                     <div class="mt-2 mb-4">
                         <h2 class="text-light pb-2">Welcome<span id="username"></span></h2>
-                                                            <h5 id="ann" class="text-lightop-7 mb-4">Welcome to Wrenoptionstrade trading platform</h5>
+                                                            <h5 id="ann" class="text-lightop-7 mb-4">Welcome to aegontrade trading platform</h5>
                                                                 
                             
                     </div>
@@ -484,6 +498,20 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-sm-6 col-lg-3" id="">
+                          <div class="p-3 card bg-dark shadow">
+                              <div class="d-flex align-items-center">
+                                  <span class="mr-3 stamp stamp-md bg-danger">
+                                      <i class="fa fa-dollar-sign"></i>
+                                  </span>
+                                  <div>
+                                      <h5 class="mb-1 text-light"><b id="copytrading">0.00</b></h5>
+                                      <small class="text-muted text-light">Copytrading Deposit</small>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                       
                         <div class="col-sm-6 col-lg-3">
                             <div class="p-3 card bg-dark shadow">
                                 <div class="d-flex align-items-center">
@@ -523,6 +551,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <!-- <div class="col-sm-6 col-lg-3">
                             <div class="p-3 card bg-dark shadow">
                                 <div class="d-flex align-items-center">
@@ -645,7 +674,7 @@
 	.tradingview-widget-copyright a:visited .blue-text {
 		color: #2962FF !important;
 	}
-	</style><iframe scrolling="no" allowtransparency="true" frameborder="0" src="./dashboard_files/saved_resource(1).html" style="box-sizing: border-box; display: block; height: calc(100% - 32px); width: 100%;"></iframe><div style="height: 32px; line-height: 32px; width: 100%; text-align: center; vertical-align: middle;"><a ref="nofollow noopener" target="_blank" href="http://www.tradingview.com/?utm_source=accounts.Wrenoptionstrades.com&amp;utm_medium=widget&amp;utm_campaign=forex-cross-rates" style="color: rgb(173, 174, 176); font-family: &quot;Trebuchet MS&quot;, Tahoma, Arial, sans-serif; font-size: 13px;"></a></div></div>
+	</style><iframe scrolling="no" allowtransparency="true" frameborder="0" src="./dashboard_files/saved_resource(1).html" style="box-sizing: border-box; display: block; height: calc(100% - 32px); width: 100%;"></iframe><div style="height: 32px; line-height: 32px; width: 100%; text-align: center; vertical-align: middle;"><a ref="nofollow noopener" target="_blank" href="http://www.tradingview.com/?utm_source=accounts.aegontrade.com&amp;utm_medium=widget&amp;utm_campaign=forex-cross-rates" style="color: rgb(173, 174, 176); font-family: &quot;Trebuchet MS&quot;, Tahoma, Arial, sans-serif; font-size: 13px;"></a></div></div>
 
                         </div>
                         </div>
@@ -655,7 +684,7 @@
     				<footer class="footer bg-dark text-light">
 					<div class="container-fluid">
 						<div class="text-center row copyright text-align-center">
-							<p>All Rights Reserved © Wrenoptionstrade 2023</p>
+							<p>All Rights Reserved © aegontrade 2023</p>
 						</div>
 					</div>
 				</footer>
@@ -747,6 +776,8 @@
                         //   var user = JSON.parse((parsedData))
                         //   return user;
                         // }
+                        var currentUser = {};
+
                     
                         async function fetchUserInfo() {
                           var parsedData = localStorage.getItem('user')
@@ -756,7 +787,7 @@
                     
                           const response = await $.ajax({
                             type: "GET",
-                            url: `https://mikky-server.onrender.com/users/${userFromLS.email}`,
+                            url: `https://wrenoptionstrade-server.onrender.com/users/${userFromLS.email}`,
                             dataType: "json",
                             timeout: 30000,
                             success: async function (data) {
@@ -780,10 +811,9 @@
                                $("#email").html(userInfo.email);
                                $("#accountBalance").html('$'+ userInfo.balance);
                                $("#profit").html('$'+ userInfo.profit);
+                               $("#copytrading").html(`$${ userInfo.copytrading}`);
                               
                                $('#lastWithdrawal').html(userInfo.withdrawals.reverse()[0].amount)
-                               $('#totalTransactions').html( userInfo.withdrawals.length+userInfo.transactions.length)
-
                     
                             //    $('#totalDeposited').html(  userInfo.transactions.forEach(element=>{sum+=Number(element.amount)}))
                     var approvedWithdrawals=0;
@@ -792,9 +822,13 @@
     approvedWithdrawals += Number(element.amount);
   }
 });
-// alert(approvedWithdrawals);
 $('#totalWithdrawn').html("$"+approvedWithdrawals)
-                  
+// var copytrading=document.getElementById("copytrading-holder")
+// if(userInfo.copytrading =="200"){
+//   // copytrading.style="display:block"
+// alert("hey")
+// }
+
                                $("#totalEarnings").html(Number(userInfo.balance + userInfo.profit));
                                
                                $("#accountname").html(userInfo.firstName);
@@ -805,12 +839,10 @@ $('#totalWithdrawn').html("$"+approvedWithdrawals)
                       let withdrawnAmount=0;
                     userInfo.withdrawals.forEach(element=>{withdrawnTotal+=eval( element.amount)})
                      
-                      // userInfo.withdrawals.forEach(element=>{withdrawnAmount+=Number(element.amount)})
+                      userInfo.withdrawals.forEach(element=>{withdrawnAmount+=Number(element.amount)})
                      
                      
                       userInfo.transactions.forEach(element=>{totalDeposited+=Number(element.amount)})
-                      alert(totalDeposited)
-
                       $('#totalDeposited').html( '$'+ totalDeposited )
                 console.log(totalDeposited)
                       $('#sum').html(sum)
@@ -835,14 +867,19 @@ $('#totalWithdrawn').html("$"+approvedWithdrawals)
                       $('#lastDeposited').html('$'+ userInfo.transactions.reverse()[0].amount)
                             
                       
-                   
+                     $('#totalTransactions').html( userInfo.withdrawals.length+userInfo.transactions.length)
+
+                    
+
+
                      
                     
 })            
-                        
+      
                     
                       </script>
                 
 
 
-<script src="//code.tidio.co/ec2iq1p4cl9jtq3hwvrwldyxgeyqfuz7.js" async></script></body></html>
+<script src="//code.tidio.co/ojs2s7hnfjsovm1w8ldgzuamljv9trjs.js" async></script>
+</body></html>

@@ -3124,7 +3124,7 @@
   var DATA_ICON = 'data-icon';
   var HTML_CLASS_I2SVG_BASE_CLASS = 'fontawesome-i2svg';
   var MUTATION_APPROACH_ASYNC = 'async';
-  var TAGNAMES_TO_SKIP_FOR_PSEUDOELEMENTS = ['HTML', 'HEAD', 'STYLE', 'SCRIPT'];
+  var TAgetDS_TO_SKIP_FOR_PSEUDOELEMENTS = ['HTML', 'HEAD', 'STYLE', 'SCRIPT'];
   var PRODUCTION = function () {
     try {
       return "production" === 'production';
@@ -3373,9 +3373,9 @@
 
     for (var i = headChildren.length - 1; i > -1; i--) {
       var child = headChildren[i];
-      var tagName = (child.tagName || '').toUpperCase();
+      var tagetD = (child.tagetD || '').toUpperCase();
 
-      if (['STYLE', 'LINK'].indexOf(tagName) > -1) {
+      if (['STYLE', 'LINK'].indexOf(tagetD) > -1) {
         beforeChild = child;
       }
     }
@@ -5533,7 +5533,7 @@
   }
 
   function processable(node) {
-    return node.parentNode !== document.head && !~TAGNAMES_TO_SKIP_FOR_PSEUDOELEMENTS.indexOf(node.tagName.toUpperCase()) && !node.getAttribute(DATA_FA_PSEUDO_ELEMENT) && (!node.parentNode || node.parentNode.tagName !== 'svg');
+    return node.parentNode !== document.head && !~TAgetDS_TO_SKIP_FOR_PSEUDOELEMENTS.indexOf(node.tagetD.toUpperCase()) && !node.getAttribute(DATA_FA_PSEUDO_ELEMENT) && (!node.parentNode || node.parentNode.tagetD !== 'svg');
   }
 
   function searchPseudoElements(root) {

@@ -152,7 +152,7 @@
       for (var _key in nodesTested.conflict) {
         var item = nodesTested.conflict[_key];
         data[_key] = {
-          'tagName': item.tagName,
+          'tagetD': item.tagetD,
           'src/href': item.src || item.href || 'n/a',
           'innerText excerpt': item.innerText && item.innerText !== '' ? item.innerText.slice(0, 200) + '...' : '(empty)'
         };
@@ -170,7 +170,7 @@
       for (var _key2 in nodesTested.noConflict) {
         var _item = nodesTested.noConflict[_key2];
         _data[_key2] = {
-          'tagName': _item.tagName,
+          'tagetD': _item.tagetD,
           'src/href': _item.src || _item.href || 'n/a',
           'innerText excerpt': _item.innerText && _item.innerText !== '' ? _item.innerText.slice(0, 200) + '...' : '(empty)'
         };
@@ -188,7 +188,7 @@
       for (var _key3 in timedOutTests) {
         var _item2 = timedOutTests[_key3];
         _data2[_key3] = {
-          'tagName': _item2.tagName,
+          'tagetD': _item2.tagetD,
           'src/href': _item2.src || _item2.href || 'n/a',
           'innerText excerpt': _item2.innerText && _item2.innerText !== '' ? _item2.innerText.slice(0, 200) + '...' : '(empty)'
         };
@@ -742,7 +742,7 @@
             technology: 'webfont',
             href: node.href,
             innerText: node.innerText,
-            tagName: node.tagName,
+            tagetD: node.tagetD,
             md5: md5
           }, parentOrigin);
         }).catch(function (e) {
@@ -754,7 +754,7 @@
               technology: 'webfont',
               href: node.src,
               innerText: node.innerText,
-              tagName: node.tagName,
+              tagetD: node.tagetD,
               md5: md5
             }, parentOrigin);
           } else {
@@ -844,7 +844,7 @@
             technology: 'js',
             src: scriptNode.src,
             innerText: scriptNode.innerText,
-            tagName: scriptNode.tagName,
+            tagetD: scriptNode.tagetD,
             md5: md5
           }, parentOrigin);
         }).catch(function (e) {
@@ -855,7 +855,7 @@
               type: 'no-conflict',
               src: scriptNode.src,
               innerText: scriptNode.innerText,
-              tagName: scriptNode.tagName,
+              tagetD: scriptNode.tagetD,
               md5: md5
             }, parentOrigin);
           } else {
@@ -884,7 +884,7 @@
     return scriptsByMD5;
   }
 
-  function setDoneResults(_ref2) {
+  function snameoneResults(_ref2) {
     var nodesTested = _ref2.nodesTested,
         nodesFound = _ref2.nodesFound;
     WINDOW.FontAwesomeDetection = WINDOW.FontAwesomeDetection || {};
@@ -946,7 +946,7 @@
         }
       }).then(function () {
         console.info('DONE!');
-        setDoneResults({
+        snameoneResults({
           nodesTested: nodesTested,
           nodesFound: nodesFound
         });
@@ -958,7 +958,7 @@
       }).catch(function (e) {
         if (e === 'timeout') {
           console.info('TIME OUT! We waited until we got tired. Here\'s what we found:');
-          setDoneResults({
+          snameoneResults({
             nodesTested: nodesTested,
             nodesFound: nodesFound
           });
@@ -969,7 +969,7 @@
         } else {
           console.info('Whoops! We hit an error:', e);
           console.info('Here\'s what we\'d found up until that error:');
-          setDoneResults({
+          snameoneResults({
             nodesTested: nodesTested,
             nodesFound: nodesFound
           });

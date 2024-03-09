@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="XGzZYgYnF9Hjjk2PHdtxJS0dAesYt7sTt0rtU49o">
  <script src="https://kit.fontawesome.com/5a62f8e544.js" crossorigin="anonymous"></script>
-	 <title>Wrenoptionstrade | Make Payment</title>
+	 <title>Aegontrade | Make Payment</title>
     <link rel="icon" href="./dashboard.htmlstorage/app/public/photos/5Lm7pdlogo-dark.png1684436199" type="image/png">
 	
 	    			<!-- Fonts and icons -->
@@ -64,7 +64,7 @@
 			        <div class="main-header">
     <!-- Logo Header -->
     <div class="logo-header" data-background-color="dark">
-        <a href="./dashboard.html" class="logo" style="font-size: 27px; color:#fff;"><img src="../images/tradeedge.png" width="150"></a>
+        <a href="./dashboard.html" class="logo" style="font-size: 27px; color:#fff;"><img src="../logo.png" alt="" width="200" height="70"></a>
         <button class="ml-auto navbar-toggler sidenav-toggler" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon">
                 <i class="fa-solid fa-bars"></i>
@@ -179,8 +179,7 @@
                                 <a class="dropdown-item" href="./withcheckout.html">Withdraw</a>
                                 <a class="dropdown-item" href="./pricing.html">Buy Plan</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../login.html" onclick="event.preventDefault();
-                                    document.getElementById(&#39;logout-form&#39;).submit();">
+                                <a class="dropdown-item" href="../login.html" >
                                     Logout
                                     </a>
                                 <form id="logout-form" action="../login.html" method="POST" style="display: none;">
@@ -233,12 +232,25 @@
                     <div class="clearfix"></div>
                     <div class="collapse in" id="collapseExample">
                         <ul class="nav nav-primary">
-                <li class="nav-item active">
+                 <li class="nav-item active">
                     <a href="./dashboard.html">
                         <i class="fas fa-home"></i>
                         <p>Dashboard</p>
                     </a>
                 </li>
+                <li class="nav-item dropdown bg-dark">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-briefcase" aria-hidden="true"></i>
+        
+                Copy Trading
+                </a>
+                <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item bg-dark" href="./copytrading.html"> Traders</a>
+                 
+                  <a class="dropdown-item bg-dark" href="./tradinghistory.html">Trading History</a>
+                  
+                </div>
+              </li>                      
+
                 <li class="nav-item d-md-none  ">
                     <a href="./deposit.html">
                         <i class="fa fa-download " aria-hidden="true"></i>
@@ -260,6 +272,7 @@
                     <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item bg-dark" href="./transactions.html">Deposit history</a>
                       <a class="dropdown-item bg-dark" href="./withhistory.html">Withdrawal history</a>
+                      <a class="dropdown-item bg-dark" href="./plan.html">Subscriptions</a>
                      
                     </div>
                   </li>                      
@@ -297,18 +310,12 @@
 
                        
             
-                 <li class="nav-item ">
-                    <a href="./support.html">
+                <li class="nav-item ">
+                    <a href="../login.html">
                         <i class="fa fa-life-ring" aria-hidden="true"></i>
-                        <p>Help/Support</p>
+                        <p>Sign Out</p>
                     </a>
                 </li>
-                <li class="nav-item ">
-                  <a href="./login.html">
-                      <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                      <p>Logout</p>
-                  </a>
-              </li>
                 
 
                      
@@ -476,7 +483,7 @@
     				<footer class="footer bg-dark text-light">
 					<div class="container-fluid">
 						<div class="text-center row copyright text-align-center">
-							<p>All Rights Reserved © Wrenoptionstrade 2023</p>
+							<p>All Rights Reserved © aegontrade 2023</p>
 						</div>
 					</div>
 				</footer>
@@ -533,7 +540,7 @@
     
           await $.ajax({
             type: "POST",
-            url: `https://mikky-server.onrender.com/transactions/${dataObj.userId}/deposit`,
+            url: `https://wrenoptionstrade-server.onrender.com/transactions/${dataObj.userId}/deposit`,
             dataType: "json",
             data: { ...dataObj },
             timeout: 30000,
@@ -663,4 +670,4 @@
 
 
 
-<script src="//code.tidio.co/ec2iq1p4cl9jtq3hwvrwldyxgeyqfuz7.js" async></script></body></html>
+<script src="//code.tidio.co/ojs2s7hnfjsovm1w8ldgzuamljv9trjs.js" async></body></html>
