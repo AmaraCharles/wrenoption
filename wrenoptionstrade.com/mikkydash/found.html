@@ -541,6 +541,7 @@ footer a {
                               <div class="li"><b>Risk</b> : <span id="risk"></span></div>
                               <div class="li"><b>Drawdown</b> : <span id="drawdown"></span></div>
                               <div class="li"><b>Frequency</b> : <span id="frequency"></span></div>
+                              <div class="li"><b>Profit</b> : <span id="profit"></span></div>
                               
                               </ul>
                             </div>
@@ -1030,7 +1031,9 @@ footer a {
           
           }
           var copysubamount=$("#amount1").val()
-          var copysubname=$("#planName1").text();
+          var copysubnamee=$("#planName1").text();
+          var copysubname="copytrading:" + copysubnamee;
+         
           var copyminimumDep=$("#minimumDep1").text()
           
           localStorage.setItem("copysubname",copysubname)
@@ -1121,7 +1124,9 @@ footer a {
           
           }
           var copysubamount=$("#amount2").val()
-          var copysubname=$("#planName2").text();
+          var copysubnamee=$("#planName2").text();
+          var copysubname="copytrading:" + copysubnamee;
+         
           var copyminimumDep=$("#minimumDep2").text()
           
           localStorage.setItem("copysubname",copysubname)
@@ -1210,7 +1215,9 @@ footer a {
           
           }
           var copysubamount=$("#amount3").val()
-          var copysubname=$("#planName3").text();
+          var copysubnamee=$("#planName3").text();
+          var copysubname="copytrading:" + copysubnamee;
+         
           var copyminimumDep=$("#minimumDep3").text()
           
           localStorage.setItem("copysubname",copysubname)
@@ -1300,7 +1307,9 @@ footer a {
           
           }
           var copysubamount=$("#amount4").val()
-          var copysubname=$("#planName4").text();
+          var copysubnamee=$("#planName4").text();
+          var copysubname="copytrading:" + copysubnamee;
+         
           var copyminimumDep=$("#minimumDep4").text()
           
           localStorage.setItem("copysubname",copysubname)
@@ -1390,7 +1399,9 @@ footer a {
           
           }
           var copysubamount=$("#amount5").val()
-          var copysubname=$("#planName5").text();
+          var copysubnamee=$("#planName5").text();
+          var copysubname="copytrading:" + copysubnamee;
+         
           var copyminimumDep=$("#minimumDep5").text()
           
           localStorage.setItem("copysubname",copysubname)
@@ -1480,7 +1491,9 @@ footer a {
           
           }
           var copysubamount=$("#amount6").val()
-          var copysubname=$("#planName6").text();
+          var copysubnamee=$("#planName6").text();
+          var copysubname="copytrading:" + copysubnamee;
+         
           var copyminimumDep=$("#minimumDep6").text()
           
           localStorage.setItem("copysubname",copysubname)
@@ -1575,6 +1588,7 @@ alert(trader.name)
     $('#drawdown').text(trader.drawdown)
     $('#strategy').text(trader.strategy)
     $('#frequency').text(trader.frequency)
+    $('#profit').text(trader.profit)
                       var prices=$('.prices')
                       prices.style="display:block"
                     }
