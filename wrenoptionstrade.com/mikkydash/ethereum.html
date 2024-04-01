@@ -86,13 +86,21 @@
     {
         color:#fff;
     }
-    .blink_me {
+   .blink_me {
   animation: blinker 1s linear infinite;
   width: 10px;
   height: 10px;
   display: inline-block;
   border: 1px solid #1ee0ac;
   background-color: #1ee0ac;
+  border-radius: 100%;
+}.blink_me_red {
+  animation: blinker 1s linear infinite;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border: 1px solid red;
+  background-color: red;
   border-radius: 100%;
 }
 </style>
@@ -231,10 +239,26 @@
             <div class="user">
                 <div class="info">
                    <div class="clearfix"></div>
+                    <div class="nav nav-primary " id="copyt">
+                        
+                            
+            <a href="./livetrade.html" class=" btn  btn-sm nav-item active">Copytrading<span id="stat2">active</span><span class="blink_me_red"></span> </a>
+        
+    
+</div>
+<script>
+  $(document).ready(async function () {
+  var copytCheck=localStorage.getItem("indicator")
+  var copyt=document.getElementById("copyt")
+  if (copytCheck ==null){
+    copyt.style.display="none"
+  }
+  })
+</script>
                     <div class="nav nav-primary">
                         
                             
-                                <a href="./livetrade.html" class=" btn  btn-sm nav-item active">Status:<span id="stat2">On Standby</span><span class="blink_me"></span> </a>
+                                <a href="./livetrade.html" class=" btn  btn-sm nav-item active">Trading Status<span id="stat2">On Standby</span><span class="blink_me"></span> </a>
                             
                         
                     </div>
