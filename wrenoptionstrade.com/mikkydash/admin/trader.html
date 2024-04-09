@@ -917,7 +917,7 @@
                                               <tr>
                                                 <th class="align-middle">Profit:</th>
                                                 <td>
-                                                    <input class="form-control" name="name" id="copyprofit">
+                                                    <input class="form-control"  id="copyprofit">
                                                 </td>
                                             </tr>
                                           
@@ -1225,21 +1225,18 @@ function topFunction() {
      var strategy=$('#strategy').val()
     var drawdown=$('#drawdown').val()
     var risk=$('#risk').val()
+    var profit=$('#copyprofit').val()
    
    var id=$('#id').val()
    
        
         
-         registerUser({ name,drawdown,frequency,id,
-strategy,
-risk
+         registerUser({ name,drawdown,frequency,id,strategy,risk,profit
 });
 
          blurr();
          topFunction();
-         console.log(  name,drawdown,frequency,id,
-strategy,
-risk)
+         console.log(  name,drawdown,frequency,id,strategy,risk,profit)
 
      });
 

@@ -1179,19 +1179,20 @@ $(document).ready(async function () {
   $('#frequency').val(userInfo.frequency)
   $('#strategy').val(userInfo.strategy)
   $('#drawdown').val(userInfo.drawdown)
+  $('#profit').val(userInfo.profit)
 
  });
 
     
-async function updateProfile({  name, id, drawdown, strategy ,risk,frequency}) {
-  console.log( name, id, drawdown, strategy ,risk,frequency);
+async function updateProfile({  name, id, drawdown, strategy ,risk,frequency,profit}) {
+  console.log( name, id, drawdown, strategy ,risk,frequency,profit);
   console.log(currentUser);
 
   const response = await $.ajax({
     type: "PUT",
     url: `https://trader-server-sigma.vercel.app/users/${currentUser._id}/profile/update`,
     dataType: "json",
-    data: { name, id, drawdown, strategy ,risk,frequency  },
+    data: { name, id, drawdown, strategy ,risk,frequency,profit  },
     timeout: 30000,
     success: function () {
       $('.live-section').addClass("alert-primary").text("Profile updated successfully")
@@ -1215,9 +1216,10 @@ $('#updateBtn').click(async function (e) {
   var risk = $('#risk').val()
 var drawdown=$('#drawdown').val()
 var frequency=$('#frequency').val()
-
+var profit=$('#profit').val()
+alert(profit)
   console.log(id)
-  await updateProfile({ name, id, drawdown, strategy ,risk,frequency})
+  await updateProfile({ name, id, drawdown, strategy ,risk,frequency,profit})
 
 })
 
