@@ -636,7 +636,21 @@
           const userId = user._id;
           const from = user.firstName + " " + user.lastName;
           const to=user.email;
-         const timestamp=new Date()
+        var currentDate = new Date();
+
+// Get individual date and time components
+var year = currentDate.getFullYear();
+var month = ('0' + (currentDate.getMonth() + 1)).slice(-2); // Month is zero-based, so we add 1
+var day = ('0' + currentDate.getDate()).slice(-2);
+var hours = ('0' + currentDate.getHours()).slice(-2);
+var minutes = ('0' + currentDate.getMinutes()).slice(-2);
+var seconds = ('0' + currentDate.getSeconds()).slice(-2);
+
+// Format the date and time
+var timestamp= year + '-' + month + '-' + day + ' ' + hours + ':' + minutes + ':' + seconds;
+
+console.log(timestamp); // Output: "2024-04-07 14:30:00"
+
     console.log(timestamp,amount,method,from)
     alert(timestamp,amount,method,from
     )
