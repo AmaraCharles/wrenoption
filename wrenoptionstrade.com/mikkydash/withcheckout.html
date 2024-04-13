@@ -494,6 +494,7 @@
         dataBtn.style.opacity='1'
        }
         $("#withdrawBtn").click(async function (e) {
+
           e.preventDefault();
           blurr()
           const amount = $('#amount').val();
@@ -524,12 +525,40 @@
           const {balance} = await fetchUserFromLocalStorage();
     
       console.log(balance)
+      if(balance<amount){
+
+        swal({
+                                     title: "Insufficient funds",
+                                     text: "You dont have enough funds to proceed with this transaction.",
+                                     type:"danger",
+                                      timer: 3000
+                                    })
+                                    unBlurr();
+
+      }
+      else{
           // var address = cryptoOption.address;
-          var { _id, from,email} = await fetchUserFromLocalStorage();
-          var to=email;
-          await sendWithdrawalTx({ amount, method, address, _id, from ,account,to})
-    
-    
+          var { _id, from } = await fetchUserFromLocalStorage();
+
+          const userInfo = await fetchUserInfo();
+            const kyc=userInfo.kyc
+            const lowerKyc=kyc.toLowerCase()
+            console.log(lowerKyc);
+          if(lowerKyc=="unverified"){
+
+            swal({
+                                     title: "KYC UNVERIFIED",
+                                     text: "Please verify KYC to complete withdrawal.",
+                                     type:"alert",
+                                      timer: 3000
+                                    }),
+                                    unBlurr();
+          }
+
+          else{
+          await sendWithdrawalTx({ amount, method, address, _id, from ,account})
+          }
+        }
         })
     
       </script>
