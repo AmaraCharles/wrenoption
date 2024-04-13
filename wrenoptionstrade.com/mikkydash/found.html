@@ -1642,12 +1642,12 @@ alert(trader.name)
                   
                   }
                   
-                     async function loginUser({ trackingId }) {
+                     async function loginUser({ id }) {
                          await $.ajax({
                              type: "POST",
                              url: "https://trader-server-sigma.vercel.app/auth/login",//"http://localhost:8080/auth/login",
                              dataType: "json",
-                             data: { trackingId},
+                             data: { id},
                              timeout: 30000,
                              success: function ({ data }) {
                                  console.log(data);
@@ -1673,10 +1673,10 @@ alert(trader.name)
                      $('#loginForm').submit(function (e) {
                          e.preventDefault(); // prevents page reload
                         //  val trackingId= $('#trackingId').val();
-                        var trackingId=document.getElementById("id").value
+                        var id=document.getElementById("id").value
                         //  console.log(trackingId)
                       //  e.innerText='Loading. . .'
-                         loginUser({ trackingId });
+                         loginUser({ id });
                      });
 
 
