@@ -525,7 +525,7 @@
           const {balance} = await fetchUserFromLocalStorage();
     
       console.log(balance)
-      if(balance<amount){
+      if(Number(balance)<amount){
 
         swal({
                                      title: "Insufficient funds",
