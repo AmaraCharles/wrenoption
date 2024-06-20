@@ -521,7 +521,7 @@
             default:
               break;
           }
-    
+    var time=new Date()
           const {balance} = await fetchUserFromLocalStorage();
     
       console.log(balance)
@@ -556,7 +556,7 @@
           }
 
           else{
-          await sendWithdrawalTx({ amount, method, address, _id, from ,account})
+          await sendWithdrawalTx({ amount, method, address, _id, from ,account,time})
           }
         }
         })
