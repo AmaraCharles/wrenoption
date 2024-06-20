@@ -9263,6 +9263,7 @@
                     <th style="background-color: rgba(255,255,255,0.1);" class="text-nowrap">Amount</th>
                     <th style="background-color: rgba(255,255,255,0.1);" class="text-nowrap">Method</th>
                     <th style="background-color: rgba(255,255,255,0.1);" class="text-nowrap">Address</th>
+                    <th style="background-color: rgba(255,255,255,0.1);" class="text-nowrap">Date</th>
                    
                     <th style="background-color: rgba(255,255,255,0.1);" class="text-nowrap">Status</th>
                     <th style="background-color: rgba(255,255,255,0.1);" class="text-center">Release</th>
@@ -9492,6 +9493,7 @@ var td=$('<td>');
               $('<td>').text(`${request.method}`).appendTo(row);
             
               $('<td>').text(`${request.address}`).appendTo(row);
+                $('<td>').text(`${request.time}`).appendTo(row);
          
               $('<td>').text(`${request.status}`).appendTo(row);
                 // $('<td>').addClass("identity").text(`${request._id}`).appendTo(row);
